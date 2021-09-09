@@ -15,11 +15,26 @@
 .form-headin
 {
     border-bottom:1px solid rgb(194, 190, 191);
-    color: rgb(122, 118, 118);
+    color: #7a7676;
+    width: 110%;
+    margin-left: -21px;
+}
+#language
+{
+    padding: 25px 60px;
+    color: rgb(144, 150, 137);
+    font-size: 90%;
+}
+img {
+    width: 4%;
+    height: 8%;
 }
 
 #form-pass
 {   
+    max-width: 400px;
+    flex-grow: 1;
+    padding : 20px 20px 30px;
     border:1px solid rgb(194, 190, 191);
     border-radius: 5px;
     width: 30%;
@@ -32,8 +47,8 @@
     display: flex;
     border-radius: 10px;
     background-color: rgb(248, 247, 247);
-    width: 70%;
-    margin-left:15%;
+    width: 70%px;
+    margin-left:20%;
 }
 
 .form-group 
@@ -101,5 +116,7 @@
     font-size: 15px;
     margin-bottom: 7%;
 }
+
+
 
 
