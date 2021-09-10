@@ -12,11 +12,14 @@
 <body>
     <div class="wrapper">
         <form action="" id="form-pass">
-                <p class="form-headin">Đặt lại password</p>
-                <div class="formgroup">
-                    <input type="text" class="form-input" placeholder="Email">
-                </div>
-                <input type="submit" value="Gửi" class="formsubmit">
+                <p class="form-headin">
+                    <div class="i">Đặt lại password</div>
+                            <div class="formgroup">
+                                <input  type="email" class="form-input" required >
+                            </div>
+                        <div id="goemail">Email</div>
+                    <input  onclick = send() type="submit" value="Gửi" class="formsubmit">
+                </p>
         </form>
     </div>
 </body>
