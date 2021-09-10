@@ -12,18 +12,33 @@
     flex-grow: 1;
     padding : 30px 30px 40px;
 }
-.form-headin
+.form-headin 
 {
-    border-bottom:1px solid rgb(194, 190, 191);
-    color: #7a7676;
-    width: 110%;
-    margin-left: -21px;
+    border-bottom: 2px solid rgb(194, 190, 191);
+    color: #4b4848;
+    width: 111%;
+    margin-left: -6%;
+    margin-top: 9%;
+}
+.i  
+{
+    margin-top: -42px;
+    font-size: 20px;
+    margin-left: 30px;
+    color: gray;
 }
 #language
 {
-    padding: 25px 60px;
+    padding: 10% 16%;
     color: rgb(144, 150, 137);
     font-size: 90%;
+    position: relative;
+    width: 110%;
+}
+#goemail
+{
+    margin-top: -37px;
+    margin-left: 5px;
 }
 img {
     width: 4%;
@@ -35,14 +50,14 @@ img {
     max-width: 400px;
     flex-grow: 1;
     padding : 20px 20px 30px;
-    border:1px solid rgb(194, 190, 191);
+    border:2px solid rgb(194, 190, 191);
     border-radius: 5px;
     width: 30%;
 }
 .formgroup
 {
     margin-top: 55px;
-    border : 1px solid rgb(238, 232, 232);
+    border : 2px solid rgb(192, 189, 189);
     padding :12px;
     display: flex;
     border-radius: 10px;
@@ -54,7 +69,7 @@ img {
 .form-group 
 {
     margin-top: 15px;
-    border : 1px solid rgb(238, 232, 232);
+    border : 2px solid rgb(238, 232, 232);
     padding :12px;
     display: flex;
     border-radius: 10px;
