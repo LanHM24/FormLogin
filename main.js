@@ -1,3 +1,17 @@
+function send() 
+    {
+      var arr = document.getElementsByTagName('input');
+      var e = arr[0].value;
+      var p = arr[1].value;
+      if(e == "" || p == "" )
+      {
+        alert("Hãy điền vào chỗ trống");
+      }
+      else 
+      alert("Đăng nhập thành công");
+    }
+    
+
 $(document).ready(function(){
     $('#eye').click(function(){
       $(this).toggleClass('open')
@@ -8,17 +22,18 @@ $(document).ready(function(){
       else{
         $(this).prev().attr('type','password')
       }
-    });
+    })
 
-    $('.form-submit').click(function(){
-        alert("Đăng nhập thành công")
-    });
+    $('#quenmatkhau').click(function(){
+      window.location.href='quenpass.html';
+   })
+
+    $('.formsubmit').click(function(){
+      alert("Đã gửi mã xác nhận về email của bạn");
+    })
+
   });
 
-  $('#quenmatkhau').click(function(){
-    window.location.href='quenpass.html';
- })
- $('.formsubmit').click(function(){
-  alert("Đã gửi mã xác nhận về email của bạn")
-});
+  
 
+  
