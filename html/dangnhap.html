@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <script src=""></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <form action="#" id="form-login">
+            <img class="imglogo" src="../img/logo.png" alt="logo">
+            <h1 class="form-heading">Đăng nhập</h1>
+            <div class="form-group">
+                <input type="email" class="form-input" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-input" placeholder="Mật khẩu">
+                <div id="eye"><i class="fa fa-eye"></i></div>
+            </div>
+            <div id="tuychon">
+                <input type="checkbox" name="" id="luu">Lưu mật khẩu
+                <input type="button" value="Quên mật khẩu" id='quenmatkhau'>
+            </div>
+            <input type="submit" value="Đăng nhập" onclick='send()' class="form-submit">
+            <div id="language">Ngôn ngữ :
+                <img src="../img/quockiVietNam.png" width="600" height="600"> Tiếng Việt
+                <img src="../img/tienganh.png" width="600" height="600"> Tiếng Anh
+            </div>
+        </form>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="../js/main.js"></script>
+
+</html>

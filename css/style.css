@@ -1,0 +1,102 @@
+
+.wrapper
+{   
+    background-image: url(../img/background.jpeg);
+    display: flex;
+    min-height: 100vh;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.imglogo
+{
+    display: block;
+    text-align: center;
+    width: 115px;
+    height: 35px;
+    margin: auto;
+}
+
+#form-login
+{
+    max-width: 400px;
+    flex-grow: 1;
+    padding : 30px 30px 40px;
+}
+
+#language
+{
+    color: rgb(161, 190, 127);
+    font-size: 90%;
+    position: relative;
+    text-align: center;
+}
+img {
+    width: 4%;
+    height: 8%;
+}
+
+
+.form-group 
+{
+    margin-top: 15px;
+    border : 2px solid rgb(238, 232, 232);
+    padding :12px;
+    display: flex;
+    border-radius: 10px;
+    background-color: rgb(248, 247, 247);
+}
+.form-heading
+{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.form-input
+{
+    background: transparent;
+    border:0;
+    outline:0;
+    flex-grow: 1;
+    height: 100px;
+    
+}
+.password
+{
+
+}
+#eye i
+{
+    color:silver;
+}
+#quenmatkhau
+{   
+    position: relative;
+    margin-left: 160px;
+    background: transparent;
+    border:0;
+    outline:0;
+    flex-grow: 1;
+    color: rgb(160, 158, 158);
+    text-decoration: none;
+}
+#tuychon
+{
+    color: rgb(138, 136, 136);
+}
+.form-submit
+{   
+    color:#fff;
+    border : 1px solid rgb(232, 233, 233) ;
+    padding :12px;
+    background-color: rgb(29, 170, 226);
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+
+
+
+
