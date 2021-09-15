@@ -61,6 +61,12 @@
     text-align: center;
     line-height: 40px;
   }
+  input.form-submit {
+    background-color: purple;
+    border-radius: 8px;
+    padding: 4px;
+    width: 45px;
+}
   @media (max-width: 740px) {
     .c-12 {
       width: 310px;
