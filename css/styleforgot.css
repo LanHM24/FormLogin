@@ -1,69 +1,72 @@
-.wrapper
-{   
+.app-forgot {
     display: flex;
-    min-height: 100vh;
-    justify-content:center;
-    align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-#form-pass
-{   
-    max-width: 40%;
-    flex-grow: 1;
-    padding: 0px 20px 30px;
-    border: 2px solid rgb(194, 190, 191);
-    border-radius: 5px;
-    width: 30%;
-}
-.form-headin 
-{
-    border-bottom: 2px solid rgb(194, 190, 191);
-    color: #4b4848;
-    width: 110%;
-    margin-left: -6%;
-    margin-top: 9%;
-}
-.i  
-{
-    margin-top: -42px;
+    background-image: url(/training/src/htmlcss/login/assets/img/background.jpeg);
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+  .forgot {
+    margin: auto;
+    color: var(--color-primary);
+    width: 500px;
+  }
+  .logo-forgot {
+    text-align: center;
+  }
+  .form-forgot {
+    margin-top: 70px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .form-forgot__title {
+    line-height: 50px;
     font-size: 20px;
-    margin-left: 30px;
-    color: gray;
-}
-
-.formgroup
-{
-    margin-top: 55px;
-    border : 2px solid rgb(192, 189, 189);
-    padding :12px;
+    padding-left: 10px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ccc;
+    user-select: none;
+  }
+  
+  .form-forgot__input {
+    margin: 20px 0 30px;
+  }
+  .form-forgot__input-label {
+    /* width: 10%; */
+    padding: 0 20px;
+    user-select: none;
+  }
+  .form-forgot__input-log {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 80%;
+    height: 37px;
+  }
+  .form-forgot__send {
     display: flex;
-    border-radius: 10px;
-    background-color: rgb(248, 247, 247);
-    width: 70%;
-    margin-left:20%;
-}
-.form-input
-{
-    background: transparent;
-    border:0;
-    outline:0;
-    flex-grow: 1;
-    
-}
-#goemail
-{
-    margin-top: -37px;
-    margin-left: 5px;
-}
-.formsubmit
-{   
-    color:#fff;
-    border : 1px solid rgb(232, 233, 233) ;
-    padding :12px;
-    background-color: rgb(152, 26, 184);
-    margin-left: 38%;
-    margin-top: 10%;
-    border-radius: 10px;
-    font-size: 15px;
-    margin-bottom: 7%;
-}
+    padding-bottom:20px ;
+  }
+  .form-forgot-btn {
+    border-radius: 3px;
+    color: #fff;
+    margin: auto;
+    width: 50px;
+    height: 40px;
+    background-color: var(--btn-color);
+    cursor: pointer;
+  }
+  .form-forgot-btn > p {
+    text-align: center;
+    line-height: 40px;
+  }
+  @media (max-width: 740px) {
+    .c-12 {
+      width: 310px;
+    }
+    .form-forgot__input-label {
+      /* width: 10%; */
+      padding: 0 5px;
+    }
+  }

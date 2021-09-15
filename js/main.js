@@ -26,10 +26,6 @@ $(document).ready(function(){
       }
     })
 
-    $('#quenmatkhau').click(function(){
-      window.location.href='quenpass.html';
-   })
-
 
   });
 

@@ -25,9 +25,13 @@
                 <input type="password" class="form-input" placeholder="Mật khẩu">
                 <div id="eye"><i class="fa fa-eye"></i></div>
             </div>
-            <div id="tuychon">
-                <input type="checkbox" name="" id="luu">Lưu mật khẩu
-                <input type="button" value="Quên mật khẩu" id='quenmatkhau'>
+            <div class="login-support">
+                <div class="login-save-password">
+                    <!-- <i class="check-box far fa-square"></i> -->
+                    <input type="checkbox" class="save-password-check">
+                    <p class="save-password-label">Lưu mật khẩu</p>
+                </div>
+                <a href="../html/quenpass.html" class="login-forgot-link">Quên mật khẩu </a>
             </div>
             <input type="submit" value="Đăng nhập" onclick='send()' class="form-submit">
             <div id="language">Ngôn ngữ :

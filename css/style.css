@@ -24,13 +24,7 @@
     padding : 30px 30px 40px;
 }
 
-#language
-{
-    color: rgb(161, 190, 127);
-    font-size: 90%;
-    position: relative;
-    text-align: center;
-}
+
 img {
     width: 4%;
     height: 8%;
@@ -57,13 +51,11 @@ img {
     background: transparent;
     border:0;
     outline:0;
-    flex-grow: 1;
-    height: 100px;
-    
+    flex-grow: 1;  
 }
-.password
-{
-
+#eye {
+    width: 10px;
+    height: 10px;
 }
 #eye i
 {
@@ -72,17 +64,33 @@ img {
 #quenmatkhau
 {   
     position: relative;
-    margin-left: 160px;
+    left: 40%;
     background: transparent;
-    border:0;
-    outline:0;
+    border: 0;
+    outline: 0;
     flex-grow: 1;
     color: rgb(160, 158, 158);
     text-decoration: none;
 }
-#tuychon
-{
-    color: rgb(138, 136, 136);
+.login-support {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 00px;
+  }
+  .login-save-password {
+    display: flex;
+  }
+  .save-password-check{
+    height: 13px;
+    width: 22px;
+  }
+  .save-password-label {
+    font-size: 13px;
+    margin: auto;
+  }
+  a.login-forgot-link {
+    text-decoration: none;
+    color: gray;
 }
 .form-submit
 {   
@@ -94,6 +102,14 @@ img {
     margin: auto;
     border-radius: 10px;
     font-size: 15px;
+}
+#language
+{
+    color: rgb(117, 117, 117);
+    font-size: 90%;
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
 }
 
 

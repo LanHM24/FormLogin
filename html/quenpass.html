@@ -6,21 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styleforgot.css">
     <script src="jquery.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Quên mật khẩu</title>
 </head>
 <body>
-    <div class="wrapper">
-        <form action="" id="form-pass">
-                <p class="form-headin">
-                    <div class="i">Đặt lại password</div>
-                            <div class="formgroup">
-                                <input  type="email" class="form-input" required >
-                            </div>
-                        <div id="goemail">Email</div>
-                    <input  onclick = send() type="submit" value="Gửi" class="formsubmit">
-                </p>
-        </form>
+    <div class="app-forgot">
+        <div class="forgot c-12">
+            <div class="logo-forgot">
+                <img src="../img/logo.png" alt="" class="logo-img">
+            </div>
+            <div class="form-forgot">
+                <div class="form-forgot__title">
+                    Đặt lại mật khẩu
+                </div>
+                <div class="form-forgot__input">
+                    <span class="form-forgot__input-label">Email</span>
+                    <input type="email" class="form-forgot__input-log">
+                </div>
+               <div class="form-forgot__send">
+                <div class="form-forgot-btn">
+                    <input type="submit" value="Gửi" onclick='send()' class="form-submit">
+                </div>
+               </div>
+            </div>
+        </div>
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
