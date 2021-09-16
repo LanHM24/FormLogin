@@ -15,11 +15,11 @@
 <body>
     <div class="wrapper">
 
-        <form action="#" id="form-login">
+        <form action="#" id="form-login" onsubmit="return validatEemail()";>
             <img class="imglogo" src="../img/logo.png" alt="logo">
             <h1 class="form-heading">Đăng nhập</h1>
             <div class="form-group">
-                <input type="email" class="form-input" placeholder="Email">
+                <input type="email" class="form-input" placeholder="Email" id="email">
             </div>
             <div class="form-group">
                 <input type="password" class="form-input" placeholder="Mật khẩu">

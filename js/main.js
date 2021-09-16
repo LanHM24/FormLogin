@@ -3,17 +3,13 @@ function send()
       var arr = document.getElementsByTagName('input');
       var e = arr[0].value;
       var p = arr[1].value;
-      if(e == "" || p == "" )
+      if(e == "" || p == ""  )
       {
         alert("Hãy điền vào chỗ trống");
       }
-      else 
+      else
       alert("Đăng nhập thành công");
     }
-    
-
-
-    
 $(document).ready(function(){
     $('#eye').click(function(){
       $(this).toggleClass('open')
