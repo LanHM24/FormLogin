@@ -75,7 +75,8 @@ img {
 .login-support {
     display: flex;
     justify-content: space-between;
-    margin-top: 00px;
+    margin-top: 10px;
+    margin-bottom: 30px;
   }
   .login-save-password {
     display: flex;
